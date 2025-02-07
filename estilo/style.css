@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --cor1: #000000;
+    --cor2: #ffffff;
+    --fonte01: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    --fonte02: 'Passion one', 'serif';
+    --fonte03: 'Sriracha', 'serif';
+}
+/* Configurações gerais*/
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+/* Configurações de HTML e body*/
+html, body {
+    min-height: 100vh;
+    font-size: 1em;
+    font: var(--fonte01);
+}
+/* Estilização do Header*/
+header {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    min-height: 150px;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-family: var(--fonte02);
+    font-size: 10vw;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+header p {
+    font-family: var(--fonte01);
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+header a, footer a {
+    color: var(--cor2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Ao passar o mouse cria uma linha embaixo do texto*/
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização das section*/
+/* Espaçamento interno */
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+section p {
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
+    font-weight: normal;
+    padding: 0px 0px 67px;
+    margin: 0px;
+    line-height: 2em;
+}
+
+/* Imagem com efeito parallax */
+section#img1 {
+    background-color: var(--cor1);
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px #00000065;
+}
+
+/* Imagem com efeito parallax */
+section#img2 {
+    background-color: var(--cor1);
+    background-image: url('../imagens/background002.jpg');
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px #00000065;
+
+}
+
+/* Texto sobre a imagem */
+section.imagem > p {
+    display: inline-block;
+    color: var(--cor2);
+    background-color: #0000006b;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+/* Estilização do footer */
+footer {
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: var(--cor2);
+    font-family: var(--fonte01);
+    margin: 0px;
+}
+
+footer p > a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+}
