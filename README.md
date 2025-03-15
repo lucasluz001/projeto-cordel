@@ -1,6 +1,6 @@
 # Projeto Cordel
 
-Segundo projeto do terceiro módulo do curso de HTML e CSS do [Gustavo Guanabara](https://github.com/gustavoguanabara) do canal [Curso em vídeo](https://www.youtube.com/c/CursoemV%C3%ADdeo). Um projeto um pouco mais complexo que o primeiro, possui algumas técnicas um pouco mais avançadas como o parallax. O site é um cordel de Milton duarte.
+Projeto do terceiro módulo do curso de HTML e CSS do [Gustavo Guanabara](https://github.com/gustavoguanabara) do canal [Curso em vídeo](https://www.youtube.com/c/CursoemV%C3%ADdeo). Um projeto um pouco mais complexo que o primeiro, possui algumas técnicas um pouco mais avançadas como o parallax. O site é um cordel de Milton duarte.
 
 ![imagem](cordel.png)
 
